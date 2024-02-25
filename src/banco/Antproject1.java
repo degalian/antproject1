@@ -9,7 +9,7 @@ public class Antproject1 {
 
     public static void operativa_cuenta(float imp, Object par1) {
    
-        CuentaCorriente banco1 = new CuentaCorriente("Antonio López","1000-2365-85-1230456789",2500,0);
+        Pepito banco1 = new Pepito("Antonio López","1000-2365-85-1230456789",2500,0);
         double saldoActual = banco1.getSaldo();
         System.out.println("El saldo inicial es de "+ saldoActual +" euros");
         
