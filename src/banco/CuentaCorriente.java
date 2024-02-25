@@ -1,10 +1,9 @@
 package banco;
-public class CCuenta {   
+public class CuentaCorriente {   
     private String nombre;
     private String cuenta;
     private double saldo;
     private double tipoInteres;
-
     public String getNombre() {
         return nombre;
     }
@@ -30,10 +29,10 @@ public class CCuenta {
         this.tipoInteres = tipoInteres;
     }
 
-    public CCuenta()
+    public CuentaCorriente()
     {
     }
-    public CCuenta(String nombre, String cuenta, double saldo, double tipoInteres)
+    public CuentaCorriente(String nombre, String cuenta, double saldo, double tipoInteres)
     {
         this.nombre =nombre;
         this.cuenta=cuenta;

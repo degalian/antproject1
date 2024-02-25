@@ -4,12 +4,12 @@ import java.util.Scanner;
 public class Antproject1 {
 
     public static void main(String[] args) { 
-        operativa(0, null);
+        operativa_cuenta(0, null);
     }
 
-    public static void operativa(float imp, Object par1) {
+    public static void operativa_cuenta(float imp, Object par1) {
    
-        CCuenta banco1 = new CCuenta("Antonio López","1000-2365-85-1230456789",2500,0);
+        CuentaCorriente banco1 = new CuentaCorriente("Antonio López","1000-2365-85-1230456789",2500,0);
         double saldoActual = banco1.getSaldo();
         System.out.println("El saldo inicial es de "+ saldoActual +" euros");
         
